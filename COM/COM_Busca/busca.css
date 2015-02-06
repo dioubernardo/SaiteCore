@@ -1,0 +1,28 @@
+.busca-ico {
+	background-image: url(lupa.gif);
+	background-position: right center;
+	background-repeat: no-repeat !important;;
+}
+.busca-buscando {
+	background-image: url(pesquisando.gif) !important;
+	background-position: right center;
+	background-repeat: no-repeat !important;;
+}
+.busca-lista {
+	position: absolute;
+	border: 1px solid #CCC;
+	padding: 0px;
+	z-index: 1;
+}
+.busca-lista div.item {
+	margin: 0px;
+	padding: 5px 3px;
+	cursor: pointer;
+	overflow-x: hidden;
+	background-color: #FFF;
+}
+
+.busca-lista div.item.hover {
+	background-color: #316AC5;
+	color: #fff;
+}
